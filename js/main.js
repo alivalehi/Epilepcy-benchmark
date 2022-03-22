@@ -33,7 +33,7 @@ var trace = (modelName, a,b) =>
 
 var trace1 = {
   x: ['Sensitivity', 'Specificity'],
-  y: [0, 0],
+  y: [97, 98],
   name: 'The propose Model',
   type: 'bar',
    marker: {
@@ -41,7 +41,7 @@ var trace1 = {
     }
 };
 
-var trace2 = trace("model1",0,0);  
+var trace2 = trace("model1",97,98);  
 var data = [trace1, trace2];
 
 var layout = {barmode: 'group'};
