@@ -41,7 +41,7 @@ var trace1 = {
     }
 };
 
-var trace2 = trace("model1",97,98);  
+var trace2 = trace("The propose Model",97,98);  
 var data = [trace1, trace2];
 
 var layout = {barmode: 'group'};
