@@ -6,7 +6,7 @@ function GetSelectedTextValue(ddlFruits) {
   trace2 = trace(models[selectedValue][1].substr(0,20),parseFloat(models[selectedValue][3]),parseFloat(models[selectedValue][4])); 
   data = [trace1, trace2]
   const divtitle = document.getElementById('titleDiv');
-  divtitle.innerHTML ="<h2>" +  models[selectedValue][1]+"/h2";
+  divtitle.innerHTML ="<h2>" +  models[selectedValue][1]+"</h2>";
   const abstractDiv = document.getElementById('abstractDiv');
   abstractDiv.innerHTML ="<h2>Abstract: </h2><p>"+ models[selectedValue][2]+ "</p>";
   
